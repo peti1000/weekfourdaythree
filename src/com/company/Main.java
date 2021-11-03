@@ -16,6 +16,8 @@ public class Main {
         fibo.fibonacci();
         AnimalSounds sound = new AnimalSounds();
         sound.sounds();
+        TaskArrayList array = new TaskArrayList();
+        array.arrayList();
 
         //     zeroToHundred();
         //     sumOfZeroToHundred();
@@ -73,14 +75,14 @@ public class Main {
 //    }
 
     //5. Write a loop that iterates through the last array and adds each element to an ArrayList.
-    private static void arrayList() {
-        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
-        List<String> arr = new ArrayList<>();
-        for (String i : sound) {
-            arr.add(i);
-        }
-        System.out.println(arr);
-    }
+//    private static void arrayList() {
+//        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
+//        List<String> arr = new ArrayList<>();
+//        for (String i : sound) {
+//            arr.add(i);
+//        }
+//        System.out.println(arr);
+//    }
 
     //6. Write a loop that iterates through that last ArrayList and collects the first letter of each element to a string. Print it after its done.
     private static void firstLetter() {
