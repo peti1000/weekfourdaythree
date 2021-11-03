@@ -18,6 +18,8 @@ public class Main {
         sound.sounds();
         TaskArrayList array = new TaskArrayList();
         array.arrayList();
+        FirstLetters letter = new FirstLetters();
+        letter.firstLetter();
 
         //     zeroToHundred();
         //     sumOfZeroToHundred();
@@ -85,18 +87,18 @@ public class Main {
 //    }
 
     //6. Write a loop that iterates through that last ArrayList and collects the first letter of each element to a string. Print it after its done.
-    private static void firstLetter() {
-        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
-        List<String> arr = new ArrayList<>();
-        for (String i : sound) {
-            arr.add(i);
-        }
-        String firstchar = "";
-        for (String j : arr) {
-            firstchar += j.charAt(0);
-        }
-        System.out.println(firstchar);
-    }
+//    private static void firstLetter() {
+//        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
+//        List<String> arr = new ArrayList<>();
+//        for (String i : sound) {
+//            arr.add(i);
+//        }
+//        String firstchar = "";
+//        for (String j : arr) {
+//            firstchar += j.charAt(0);
+//        }
+//        System.out.println(firstchar);
+//    }
 
     //7. Write an algorithm to find the longest word in the last ArrayList and print it.
     private static void longestWord() {
