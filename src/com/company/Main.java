@@ -12,8 +12,11 @@ public class Main {
         list.zeroToHundred();
         SumOfZeroToHundred sumOf = new SumOfZeroToHundred();
         sumOf.sumOfZeroToHundred();
+        Fibonacci fibo = new Fibonacci();
+        fibo.fibonacci();
 
-        //     sumOfZeroToHundred(i);
+        //     zeroToHundred();
+        //     sumOfZeroToHundred();
         //     fibonacci();
         //     sounds();
         //     arrayList();
@@ -43,20 +46,20 @@ public class Main {
 //    }
 
     //3. Write a loop that calculates the Fibonacci numbers under 100 and prints each one of them.
-    private static void fibonacci() {
-        int fibOne = 1;
-        System.out.println(fibOne);
-        int fibTwo = 1;
-        System.out.println(fibTwo);
-        while (fibTwo < 89) {
-            int fibThree = fibOne + fibTwo;
-            System.out.println(fibThree);
-            fibOne = fibTwo + fibThree;
-            System.out.println(fibOne);
-            fibTwo = fibThree + fibOne;
-            System.out.println(fibTwo);
-        }
-    }
+//    private static void fibonacci() {
+//        int fibOne = 1;
+//        System.out.println(fibOne);
+//        int fibTwo = 1;
+//        System.out.println(fibTwo);
+//        while (fibTwo < 89) {
+//            int fibThree = fibOne + fibTwo;
+//            System.out.println(fibThree);
+//            fibOne = fibTwo + fibThree;
+//            System.out.println(fibOne);
+//            fibTwo = fibThree + fibOne;
+//            System.out.println(fibTwo);
+//        }
+//    }
 
     //4. Write a loop that iterates through an array of strings and prints each one of them.
     //Array: {"moo","bark","meow","rawr","screech","chirp","growl","buzz","quack"}
