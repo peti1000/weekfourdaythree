@@ -8,35 +8,39 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //     zeroToHundred(i);
+        ZeroToHundred list = new ZeroToHundred();
+        list.zeroToHundred();
+        SumOfZeroToHundred sumOf = new SumOfZeroToHundred();
+        sumOf.sumOfZeroToHundred();
+
         //     sumOfZeroToHundred(i);
         //     fibonacci();
         //     sounds();
         //     arrayList();
         //     firstLetter();
         //     longestWord();
-        matrix();
+        //     matrix();
     }
 
     //1. Write a loop that iterates through numbers from 0 to 100 and prints each number.
-    private static void zeroToHundred() {
-        int i = 0;
-        while (i <= 100) {
-            System.out.println(i);
-            i++;
-        }
-    }
+//    private static void zeroToHundred() {
+//        int i = 0;
+//        while (i <= 100) {
+//            System.out.println(i);
+//            i++;
+//        }
+//    }
 
     //2. Write a loop that iterates through numbers from 0 to 100 and prints the sum of the numbers.
-    private static void sumOfZeroToHundred() {
-        int i = 0;
-        int sum = 0;
-        while (i <= 100) {
-            sum += i;
-            i++;
-        }
-        System.out.println(sum);
-    }
+//    private static void sumOfZeroToHundred() {
+//        int i = 0;
+//        int sum = 0;
+//        while (i <= 100) {
+//            sum += i;
+//            i++;
+//        }
+//        System.out.println(sum);
+//    }
 
     //3. Write a loop that calculates the Fibonacci numbers under 100 and prints each one of them.
     private static void fibonacci() {
