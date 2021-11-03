@@ -13,7 +13,8 @@ public class Main {
    //     fibonacci();
    //     sounds();
    //     arrayList();
-          firstLetter();
+   //     firstLetter();
+        longestWord();
 
     }
     //1. Write a loop that iterates through numbers from 0 to 100 and prints each number.
@@ -78,6 +79,21 @@ public class Main {
             firstchar += j.charAt(0);
         }
         System.out.println(firstchar);
+    }
+    //7. Write an algorithm to find the longest word in the last ArrayList and print it.
+    private static void longestWord(){
+        String[] sound = {"moo","bark","meow","rawr","screech","chirp","growl","buzz","quack"};
+        List<String> arr = new ArrayList<>();
+        for (String i: sound) {
+            arr.add(i);
+        }
+        String longest = " ";
+        for (String i: arr) {
+            if(i.length() >= longest.length()){
+                longest = i;
+            }
+        }
+        System.out.println(longest);
     }
 
 }
