@@ -14,6 +14,8 @@ public class Main {
         sumOf.sumOfZeroToHundred();
         Fibonacci fibo = new Fibonacci();
         fibo.fibonacci();
+        AnimalSounds sound = new AnimalSounds();
+        sound.sounds();
 
         //     zeroToHundred();
         //     sumOfZeroToHundred();
@@ -63,12 +65,12 @@ public class Main {
 
     //4. Write a loop that iterates through an array of strings and prints each one of them.
     //Array: {"moo","bark","meow","rawr","screech","chirp","growl","buzz","quack"}
-    private static void sounds() {
-        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
-        for (String i : sound) {
-            System.out.println(i);
-        }
-    }
+//    private static void sounds() {
+//        String[] sound = {"moo", "bark", "meow", "rawr", "screech", "chirp", "growl", "buzz", "quack"};
+//        for (String i : sound) {
+//            System.out.println(i);
+//        }
+//    }
 
     //5. Write a loop that iterates through the last array and adds each element to an ArrayList.
     private static void arrayList() {
