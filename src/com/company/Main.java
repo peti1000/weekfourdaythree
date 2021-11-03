@@ -10,9 +10,10 @@ public class Main {
 
    //     zeroToHundred(i);
    //     sumOfZeroToHundred(i);
-   //    fibonacci();
+   //     fibonacci();
    //     sounds();
-        arrayList();
+   //     arrayList();
+          firstLetter();
 
     }
     //1. Write a loop that iterates through numbers from 0 to 100 and prints each number.
@@ -64,6 +65,19 @@ public class Main {
             arr.add(i);
         }
         System.out.println(arr);
+    }
+    //6. Write a loop that iterates through that last ArrayList and collects the first letter of each element to a string. Print it after its done.
+    private static void firstLetter(){
+        String[] sound = {"moo","bark","meow","rawr","screech","chirp","growl","buzz","quack"};
+        List<String> arr = new ArrayList<>();
+        for (String i: sound) {
+            arr.add(i);
+        }
+        String firstchar = "";
+        for (String j: arr){
+            firstchar += j.charAt(0);
+        }
+        System.out.println(firstchar);
     }
 
 }
