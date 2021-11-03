@@ -1,28 +1,31 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        int i = 0;
+
    //     zeroToHundred(i);
    //     sumOfZeroToHundred(i);
    //    fibonacci();
    //     sounds();
+        arrayList();
 
     }
     //1. Write a loop that iterates through numbers from 0 to 100 and prints each number.
-    private static void zeroToHundred(int i){
-
+    private static void zeroToHundred(){
+        int i = 0;
         while(i <= 100){
             System.out.println(i);
             i++;
         }
     }
     //2. Write a loop that iterates through numbers from 0 to 100 and prints the sum of the numbers.
-    private static void sumOfZeroToHundred(int i){
-
+    private static void sumOfZeroToHundred(){
+        int i = 0;
         int sum = 0;
         while(i <= 100){
             sum += i;
@@ -53,4 +56,14 @@ public class Main {
             System.out.println(i);
         }
     }
+    //5. Write a loop that iterates through the last array and adds each element to an ArrayList.
+    private static void arrayList(){
+        String[] sound = {"moo","bark","meow","rawr","screech","chirp","growl","buzz","quack"};
+        List<String> arr = new ArrayList<>();
+        for (String i: sound) {
+            arr.add(i);
+        }
+        System.out.println(arr);
+    }
+
 }
